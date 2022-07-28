@@ -1,0 +1,276 @@
+body{
+    flex-wrap: wrap;
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header>nav>a{
+    color: #fff;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+}
+header>nav>a:hover{
+    background-color: antiquewhite;
+    color: #000;
+}
+
+/* -------------------------------------- */
+
+#div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div2 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    border-radius: 20px;
+    /* width: 200px; */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+#div2>.img1{
+    
+    background-image: url(./image/background1.jpg);
+    
+}
+#div2>.img2{
+    background-image: url(./image/Nature10.avif);
+}
+#div2>.img3
+{
+    background-image: url(./image/Nature9.avif);
+}
+#div2>.img4{
+    background-image: url(./image/Nature7.jpg);
+}
+#div2>.img5{
+    background-image: url(./image/Nature11.avif);
+}
+#div2>.img6{
+    background-image: url(./image/Nature12.avif);
+}
+#div2>.img7{
+    background-image: url(./image/Nature13.avif);
+}
+#div2>.img8{
+    background-image: url(./image/Nature3.jpg);
+}
+#div2>.img9{
+    background-image: url(./image/Nature1.jpg);
+}
+
+/* -------------------------------------- */
+
+#div3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div3 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div3 >.img1{
+    background-image: url(./image/Animal1.jpeg);
+}
+#div3 >.img2{
+    background-image: url(./image/Animal2.jpeg);
+}
+#div3 >.img3{
+    background-image: url(./image/Animal3.jpeg);
+}
+#div3 >.img4{
+    background-image: url(./image/Animal4.jpeg);
+}
+#div3 >.img5{
+    background-image: url(./image/Animal5.jpeg);
+}
+#div3 >.img6{
+    background-image: url(./image/Animal6.webp);
+}
+#div3 >.img7{
+    background-image: url(./image/Animal7.webp);
+}
+#div3 >.img8{
+    background-image: url(./image/Animal8.webp);
+}
+#div3 >.img9{
+    background-image: url(./image/Animal9.jpeg);
+}
+
+/* -------------------------------------- */
+
+#div4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div4 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div4 >.img1{
+    background-image: url(./image/Car1.jpeg);
+}
+#div4 >.img2{
+    background-image: url(./image/Car2.jpeg);
+}
+#div4 >.img3{
+    background-image: url(./image/Car3.jpeg);
+}
+#div4 >.img4{
+    background-image: url(./image/Car4.jpeg);
+}
+#div4 >.img5{
+    background-image: url(./image/Car5.jpeg);
+}
+#div4 >.img6{
+    background-image: url(./image/Car6.jpeg);
+}
+#div4 >.img7{
+    background-image: url(./image/Car7.jpeg);
+}
+#div4 >.img8{
+    background-image: url(./image/Car8.jpeg);
+}
+#div4 >.img9{
+    background-image: url(./image/Car9.jpeg);
+}
+
+/* -------------------------------------- */
+
+#div5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div5 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div5 >.img1{
+    background-image: url(./image/fl1.webp);
+}
+#div5 >.img2{
+    background-image: url(./image/fl2.jpg);
+}
+#div5 >.img3{
+    background-image: url(./image/fl3.webp);
+}
+#div5 >.img4{
+    background-image: url(./image/fl5.webp);
+}
+#div5 >.img5{
+    background-image: url(./image/fl6.webp);
+}
+#div5 >.img6{
+    background-image: url(./image/fl7.webp);
+}
+#div5 >.img7{
+    background-image: url(./image/fl8.webp);
+}
+#div5 >.img8{
+    background-image: url(./image/fl9.jpg);
+}
+#div5 >.img9{
+    background-image: url(./image/fl10.jpg);
+}
+
+/* -------------------------------------- */
+
+#div6{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div6 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div6 >.img1{
+    background-image: url(./image/water1.avif);
+}
+#div6 >.img2{
+    background-image: url(./image/water2.avif);
+}
+#div6 >.img3{
+    background-image: url(./image/water3.avif);
+}
+#div6 >.img4{
+    background-image: url(./image/water5.avif);
+}
+#div6 >.img5{
+    background-image: url(./image/water6.jpg);
+}
+#div6 >.img6{
+    background-image: url(./image/water7.jpg);
+}
+#div6 >.img7{
+    background-image: url(./image/water8.jpg);
+}
+#div6 >.img8{
+    background-image: url(./image/water9.jpg);
+}
+#div6 >.img9{
+    background-image: url(./image/water4.avif);
+}
